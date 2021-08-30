@@ -22,7 +22,7 @@ class py_loader:
         os.system(config.python + " -Fw -i ./module/bypass/script/360.ico " + filepath)
         os.system("move .\/dist\/"+file_exe+" .\/module\/bypass\/exe")
 
-        print("    \033[0;36;40mbypass finished: /module/bypass/exe"+file_exe+"\033[0m")
+        print("    \033[0;36;40mbypass finished: /module/bypass/exe/"+file_exe+"\033[0m")
         os.system("del *.spec")
         os.system("rd /S/Q build")
         os.system("rd /S/Q dist")
