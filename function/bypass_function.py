@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 from tkinter import *
 import random
+from module.bypass.script import py_loader
 from module.bypass.config import *
 from colorama import init
 init(autoreset=True)
